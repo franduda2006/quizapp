@@ -58,12 +58,28 @@ header{
 }
 
 .assunto_icone{
-    background: var(--bg-acrssibilidade);
+    background: var(--bg-acessibilidade);
     width: 40px;
     height: 40px;
     padding: 5px;
     border-radius: 5px;
 }
+
+    .assunto_icone.html{
+        background: var(--bg-html);
+    }
+
+    .assunto_icone.css{
+        background: var(--bg-css);
+    }
+
+    .assunto_icone.javascript{
+        background: var(--bg-javascript);
+    }
+
+    .assunto_icone.acessiblidade{
+        background: var(--bg-acessibilidade);
+    }
 
 .assunto_icone img{
     width: 100%;
@@ -136,7 +152,6 @@ main {
 
 .barra_progresso div{
     height: 100%;
-    width: 60%;
     background: var(--purple);
     border-radius: 999px;
 }
@@ -250,27 +265,14 @@ main {
     }
 
     .assunto_icone{
+        background: var(--bg-acessibilidade);
         width: 56px;
         height: 56px;
         padding: 8px;
         border-radius: 5px;
     }
 
-    .assunto_icone.html{
-        background: var(--bg-html);
-    }
 
-    .assunto_icone.css{
-        background: var(--bg-css);
-    }
-
-    .assunto_icone.javascript{
-        background: var(--bg-javascript);
-    }
-
-    .assunto_icone.acessiblidade{
-        background: var(--bg-acessibilidade);
-    }
 
     .assunto h1{
         font-size: 28px;
