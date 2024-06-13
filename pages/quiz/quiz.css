@@ -177,7 +177,7 @@ main {
 
 .alternativas label:hover{
     & span{
-        background: var(--bg-acrssibilidade);
+        background: var(--bg-acessibilidade);
         color: var(--purple);
     }
 }
